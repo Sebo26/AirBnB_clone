@@ -1,5 +1,7 @@
 #!/usr/bin/python3
+"""Command interpreter program"""
 import cmd
+
 
 class HBNBCommand(cmd.Cmd):
     """Creates entry point of the command interpreter"""
@@ -9,7 +11,7 @@ class HBNBCommand(cmd.Cmd):
         """Quit command to exit the program"""
         return True
 
-    def do_EOF(self,arg):
+    def do_EOF(self, arg):
         """EOF command to exit the program"""
         return True
 
