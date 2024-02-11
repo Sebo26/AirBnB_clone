@@ -1,8 +1,11 @@
 #!/usr/bin/python3
+"""Command interpreter program"""
 import cmd
+
 
 class HBNBCommand(cmd.Cmd):
     """Creates entry point of the command interpreter"""
+
     prompt = "(hbnb) "
 
     def do_quit(self, arg):
