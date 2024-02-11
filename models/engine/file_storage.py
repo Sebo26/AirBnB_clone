@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""Edits how files are stored, seeializes and deserializes"""
+
 
 class FileStorage:
     """serializes instances to a JSON file and deserializes JSON file to instances"""
