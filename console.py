@@ -17,5 +17,6 @@ class HBNBCommand(cmd.Cmd):
         """Used when empty line + enter are done"""
         pass
 
+
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
