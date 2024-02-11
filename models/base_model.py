@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+import uuid
 from datetime import datetime
 
 class BaseModel:
@@ -8,16 +9,16 @@ class BaseModel:
     self.updated_at
     def __str__(self):
         """print unique id"""
-        print "[<class name>] (<self.id>) <self.__dict__>"
+        print f"[<class name>] (<self.id>) <self.__dict__>"
 
     def save(self):
         """updates the public instance attribute updated_at with the current datetime"""
-        updated_at = datetime()
+        self.updated_at = datetime()
 
     def to_dict(self):
         """returns dictionary, keys/values of __dict__"""
-        self.__dict__
-        to_dict.append(__class__)
-        created_at_isoformat = created_at.isoformat()
-        updated_at_isoformat = updated_at.isoformat()
+        obj_dict = self.__dict__.copy()
+        obj_dict['__class'] = self.__class__.__name__
+        obj_dict['created_at'] = self.created_at.isoformat()
+        obj_dict['updated_at'] = self.updated_at.isoformat()
         to_dict.to_json()
