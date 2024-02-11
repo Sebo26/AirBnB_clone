@@ -11,3 +11,6 @@ class HBNBCommand(cmd.Cmd):
         """Comaand to quit"""
         return True
     do_EOF = do_quit
+
+if __name__ == '__main__':
+    HBNBCommand().cmdloop()
