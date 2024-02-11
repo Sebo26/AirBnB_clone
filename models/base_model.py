@@ -4,9 +4,11 @@ from datetime import datetime
 
 class BaseModel:
     """defines all common attributes/methods for other classes"""
-    id = self.id = uuid.uuid4()
-    self.created_at
-    self.updated_at
+    def __init__(self):
+        """Attributes of the class"""
+        self.id = uuid.uuid4()
+        self.created_at
+        self.updated_at
     def __str__(self):
         """print unique id"""
         print f"[<class name>] (<self.id>) <self.__dict__>"
