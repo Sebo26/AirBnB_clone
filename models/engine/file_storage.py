@@ -3,7 +3,7 @@
 
 
 class FileStorage:
-    """serializes instances to a JSON file and deserializes JSON file to instances"""
+    """serializes instances to a JSON file and JSON file to instances"""
     self.__file_path
     self.__objects
 
@@ -13,7 +13,7 @@ class FileStorage:
 
     def new(self, obj):
         """Sets object with key"""
-        <obj class name>.id
+        <obj class name > .id
 
     def save(self):
         """serializes __objects to the JSON file"""
