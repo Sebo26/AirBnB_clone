@@ -1,0 +1,31 @@
+.price_by_night {
+	font-color: #FF5A5F;
+	border: #FF5A5F;
+	border: 4px;
+	min-width: 60px;
+	height: 60px;
+	font-size: 30px;
+	text-align: top right;
+}
+
+.information {
+	height: 80px;
+	border: top;
+	border-bottom: #DDDDDD 1px;
+}
+
+.max_guest {
+	width: 100px;
+}
+
+.number_rooms {
+	width: 100px;
+}
+
+.number_bathrooms {
+	width: 100px;
+}
+
+.user Owner {
+	font-weight: bold;
+}
