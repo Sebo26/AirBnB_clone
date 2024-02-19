@@ -1,0 +1,21 @@
+.locations {
+	position: relative;
+	width: 100%;
+}
+
+.amenities {
+	position: relative;
+	width: 100%;
+}
+
+.popover {
+	display: no default;
+	color: #FAFAFA;
+	width: 100%;
+	border: 1px #DDDDDD;
+	border-radius: 4px;
+}
+
+h2 {
+	font-size: 16px;
+}
