@@ -7,7 +7,7 @@ section {
 .locations {
 	height: 100%;
 	width: 25%;
-	border-right: #DDDDDD 1px;
+	border-right: 1px solid #DDDDDD;
 }
 h3 {
 	font-weight: 600;
