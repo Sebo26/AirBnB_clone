@@ -9,10 +9,10 @@
 }
 
 .popover {
-	display: no default;
+	display: none;
 	color: #FAFAFA;
 	width: 100%;
-	border: 1px #DDDDDD;
+	border: 1px solid #DDDDDD;
 	border-radius: 4px;
 }
 
